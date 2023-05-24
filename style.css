@@ -47,7 +47,7 @@ h3{
    font-size: 26px;
 }
 h2.bio{
-    font-size:30px;
+    font-size:32px;
     font-weight: 600;
 }
 p.bio {
@@ -64,6 +64,7 @@ section.social {
     margin-left: 25%;
     margin-right: 25%;
     list-style-type: none;
+    font-size: 22px;
 }
 
 section.movies {
@@ -81,7 +82,7 @@ a.button {
     border-radius: 8px;
     padding: 12px 28px;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 25px;
     font-weight: 700;
     transition-duration: 0.5s;
     margin: 2%;
@@ -135,5 +136,6 @@ article{
     display: flex;
     flex-direction: row;
     align-items: center;
+    margin: 6%;
 
 }
