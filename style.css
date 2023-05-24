@@ -22,9 +22,7 @@ header{
     line-height: 200%;
     background-color: #fff;
     padding: 2%;
-    margin: 2%;
-    margin-left: 25%;
-    margin-right: 25%;
+    margin: 2% 25%;
     text-align: center;
 
     /*display: flex;
@@ -76,7 +74,7 @@ section.movies {
     margin-right: 25%;
 }
 
-a.button {
+.button {
     background-color: #dd5555;
     color: #fff;
     border-radius: 8px;
@@ -85,7 +83,7 @@ a.button {
     font-size: 25px;
     font-weight: 700;
     transition-duration: 0.5s;
-    margin: 2%;
+    margin-top: 100px;
 }
 
 a.button:hover{
@@ -135,7 +133,9 @@ margin: 5%;
 article{
     display: flex;
     flex-direction: row;
-    align-items: center;
     margin: 6%;
 
+}
+article img{
+    width: 160px;
 }
